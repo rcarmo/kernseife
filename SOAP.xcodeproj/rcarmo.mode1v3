@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -266,16 +264,22 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>08FB7794FE84155DC02AAC07</string>
+								<string>08FB7795FE84155DC02AAC07</string>
+								<string>A70584BA1086338A0060BF64</string>
+								<string>C6859EA2029092E104C91782</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>18</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 0}, {186, 695}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -287,14 +291,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 463}}</string>
+						<string>{{0, 0}, {203, 713}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1960 463 788 504 1920 0 1920 1080 </string>
+						<string>1960 213 1005 754 1920 0 1920 1080 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyNewFile14.java</string>
+								<string>WSDLdocument.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,7 +322,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MyNewFile14.java</string>
+										<string>WSDLdocument.h</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>0593785F12AD3C7D001319C0</string>
+										<key>history</key>
+										<array>
+											<string>059377F012AD3293001319C0</string>
+											<string>059377F212AD3293001319C0</string>
+											<string>059377F612AD3293001319C0</string>
+											<string>059377F812AD3293001319C0</string>
+											<string>059377F912AD3293001319C0</string>
+											<string>059377FA12AD3293001319C0</string>
+											<string>0593785912AD3C7D001319C0</string>
+											<string>0593785A12AD3C7D001319C0</string>
+											<string>0593785B12AD3C7D001319C0</string>
+											<string>0593785C12AD3C7D001319C0</string>
+											<string>0593785D12AD3C7D001319C0</string>
+											<string>0593785E12AD3C7D001319C0</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -329,16 +352,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {797, 527}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1960 463 788 504 1920 0 1920 1080 </string>
+								<string>1960 213 1005 754 1920 0 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>527pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -349,9 +374,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 532}, {797, 181}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1960 463 788 504 1920 0 1920 1080 </string>
+								<string>1960 213 1005 754 1920 0 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -360,7 +385,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>580pt</string>
+					<string>797pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -515,7 +540,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>059377D912AD2C97001319C0</string>
+		<string>0593786012AD3C7D001319C0</string>
 		<string>059377DA12AD2C97001319C0</string>
 		<string>059377DB12AD2C97001319C0</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -524,7 +549,7 @@
 		<string>/Users/rcarmo/Dropbox/Development/sapo/kernseife-read-only/SOAP.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1960 463 788 504 1920 0 1920 1080 </string>
+	<string>1960 213 1005 754 1920 0 1920 1080 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -545,23 +570,25 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>WSDLdocument.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {500, 218}}</string>
+								<string>{{0, 0}, {1066, 467}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1981 444 500 500 1920 0 1920 1080 </string>
+								<string>1981 195 1066 749 1920 0 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>467pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -576,9 +603,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 223}, {500, 236}}</string>
+								<string>{{0, 472}, {1066, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1981 444 500 500 1920 0 1920 1080 </string>
+								<string>1981 195 1066 749 1920 0 1920 1080 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -587,7 +614,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>459pt</string>
+					<string>708pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -610,7 +637,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>1981 444 500 500 1920 0 1920 1080 </string>
+			<string>1981 195 1066 749 1920 0 1920 1080 </string>
 			<key>WindowToolGUID</key>
 			<string>059377D012AD2C97001319C0</string>
 			<key>WindowToolIsVisible</key>

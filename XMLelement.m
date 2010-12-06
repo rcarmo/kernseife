@@ -56,7 +56,8 @@ static int indentLevel = 0;
 	
 	NSMutableString *indent = [NSMutableString string];
 	
-	for (int i=0; i<indentLevel; i++)
+  int i; // avoid C90/C99 hassles
+	for (i=0; i<indentLevel; i++)
 	{
 		[indent appendString:@"\t"];
 	}

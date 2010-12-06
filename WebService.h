@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XMLelement.h"
 
 @class XMLdocument;
 
@@ -22,6 +23,7 @@ typedef enum { SOAPVersionNone = 0, SOAPVersion1_0 = 1, SOAPVersion1_2 = 2 } SOA
 
 - (NSString *) returnValueFromSOAPResponse:(XMLdocument *)envelope;
 - (id) returnComplexTypeFromSOAPResponse:(XMLdocument *)envelope asClass:(Class)retClass;
+- (NSMutableDictionary *) flattenSOAPResponse:(XMLelement *)element withPath:(NSString*)path;
 - (NSArray *) returnArrayFromSOAPResponse:(XMLdocument *)envelope withClass:(Class)retClass;
 - (XMLdocument *) returnXMLDocumentFromSOAPResponse:(XMLdocument *)envelope;
 

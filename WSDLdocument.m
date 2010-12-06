@@ -674,8 +674,8 @@
 	
 	[retStr appendFormat:@"- (%@) %@", returnParamType, [operationName stringWithLowercaseFirstLetter]]; 
 	
-	
-	for (int i=0; i<[inputParameters count];i++)
+  int i; // avoid C90/C99 hassles
+	for (i=0; i<[inputParameters count];i++)
 	{
 		
 		NSDictionary *inParam = [inputParameters objectAtIndex:i];
@@ -1051,7 +1051,8 @@
 	
 	[classBody appendString:[self implementationForComplexTypes]];
 	
-	[classBody appendFormat:@"@implementation %@\n\n", [self serviceName]];
+	//[classBody appendFormat:@"@implementation %@\n\n", [self serviceName]];
+	[classBody appendFormat:@"@implementation %@\n\n", portName];
 	
 	for (XMLelement *oneOperation in operations)
 	{

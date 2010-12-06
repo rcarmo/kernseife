@@ -170,6 +170,24 @@
 	return newObject;
 }
 
+- (NSMutableDictionary*) flattenSOAPResponse:(XMLelement *)element withPath:(NSString*)path
+{	
+  // poor man's XPath
+	NSArray *steps = [path componentsSeparatedByString: @"/"];
+	NSMutableDictionary *dict = [[[NSMutableDictionary alloc] init] autorelease];
+	XMLelement *el = element;
+	for(id step in steps) {
+		el = [el getNamedChild: step];
+		if(el.children) {
+			for (XMLelement *oneChild in el.children)
+			{
+				[dict setObject:oneChild.text forKey:oneChild.name];
+			}
+		}
+	}
+	return dict;
+}
+
 - (NSArray *) returnArrayFromSOAPResponse:(XMLdocument *)envelope withClass:(Class)retClass
 {
 	NSMutableArray *tmpArray = [NSMutableArray array];
