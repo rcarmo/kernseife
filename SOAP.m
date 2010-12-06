@@ -57,6 +57,7 @@ int main (int argc, const char * argv[]) {
 		exit(1);
 	}
 	
+	// Patched: changed this to iteratively generate all port stubs
 	for (NSString *onePortName in ports)
 	{
 		printf("Writing class files for %s\n", [onePortName UTF8String]);
