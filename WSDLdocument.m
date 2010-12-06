@@ -1008,7 +1008,7 @@
 	NSMutableString *classHeader = [NSMutableString string];
 	NSMutableString *classBody = [NSMutableString string];
 	
-	
+	// Patched: added service and portname to filename (otherwise multiple ports in the same service would overwrite others)
 	NSString *headerFilename = [NSString stringWithFormat:@"%@-%@.h",[self serviceName], portName];
 	NSString *bodyFilename = [NSString stringWithFormat:@"%@-%@.m", [self serviceName], portName];
 	
